@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "storybook": "start-storybook --port 62478",
+    "storybook": "start-storybook --port 3000",
     "zeplin": "zeplin connect"
   },
   "dependencies": {
@@ -17,7 +17,6 @@
     "@storybook/addon-storysource": "^5.3.14",
     "@storybook/addons": "^5.3.14",
     "@storybook/html": "^5.3.14",
-    "@storybook/react": "^5.3.14",
     "@storybook/source-loader": "^5.3.14",
     "@zeplin/cli-connect-storybook-plugin": "^0.1.4",
     "babel-loader": "^8.0.6",
