@@ -8,10 +8,11 @@
             }
         }
     ],
-    "projects": ["Test"],
+    "styleguides": ["5e56ce49da59db6926b0107e"],
+    "projects": [],
     "components": [
         {
-            "path": "src/components/Button/index.js",
+            "path": "src/components/Button/index.stories.js",
             "zeplinNames": [
                 "Controls / Button / Primary"
             ]
