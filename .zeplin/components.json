@@ -1,0 +1,19 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:62478",
+                "startScript": "storybook"
+            }
+        }
+    ],
+    "components": [
+        {
+            "path": "src/components/Button/Button.js",
+            "zeplinNames": [
+                "Controls / Button / Primary"
+            ]
+        }
+    ]
+}

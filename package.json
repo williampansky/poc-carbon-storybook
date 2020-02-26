@@ -1,0 +1,34 @@
+{
+  "name": "poc-carbon-storybook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook --port 62478",
+    "zeplin": "zeplin connect"
+  },
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@storybook/addon-a11y": "^5.3.14",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-info": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.14",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-storysource": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/html": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "@storybook/source-loader": "^5.3.14",
+    "@zeplin/cli-connect-storybook-plugin": "^0.1.4",
+    "babel-loader": "^8.0.6",
+    "carbon-components": "^10.9.3",
+    "carbon-components-react": "^7.9.3",
+    "carbon-icons": "^7.0.7",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-loader": "^3.0.0",
+    "rtlcss": "^2.5.0",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.41.6"
+  }
+}
