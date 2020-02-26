@@ -8,14 +8,20 @@
             }
         }
     ],
-    "styleguides": ["5e56ce49da59db6926b0107e"],
+    "styleguides": [
+        "5e56d0e027cd32677b26c110"
+    ],
     "projects": [],
     "components": [
         {
-            "path": "src/components/Button/index.stories.js",
-            "zeplinNames": [
-                "Controls / Button / Primary"
-            ]
+            "path": "src/components/Button/index.js",
+            "zeplinNames": ["button / 01 primary / default / 01 text / 01 enabled"],
+            "storybook": {
+                "kind": "Design System/Button",
+                "stories": [
+                    "default"
+                ]
+            }
         }
     ]
 }
