@@ -14,7 +14,7 @@
     "projects": [],
     "components": [
         {
-            "path": "src/components/Button/index.js",
+            "path": "src/components/Button/button.stories.js",
             "zeplinNames": ["button / 01 primary / default / 01 text / 01 enabled"],
             "storybook": {
                 "kind": "Design System/Button",

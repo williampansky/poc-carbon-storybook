@@ -1,3 +1,12 @@
 .bx--btn--primary {
-    background: green;
+    background: #38b67d;
+}
+
+.bx--btn--primary:hover {
+    background: #30570e;
+}
+
+.bx--btn--primary:focus {
+    background: #30570e;
+    border-color: #30570e;
 }

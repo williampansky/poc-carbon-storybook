@@ -1,0 +1,21 @@
+import { Story, Preview, Meta } from '@storybook/addon-docs/blocks';
+import { action } from '@storybook/addon-actions';
+import button from './button.html'
+
+# Storybook Docs for HTML
+> Written in Markdown <code>(.md)</code> syntax with JSX support <code>(.mdx)</code>
+
+<Meta title="Addons/Docs" />
+
+## Story definition
+
+Hallelujah! HTML is working out of the box without modification.
+How you like them apples?!
+
+## Styles
+
+### Primary
+Primary variant of the NI button with the brand green color.
+<Preview mdxSource={button}>
+  <button class="bx--btn bx--btn--primary">Hello World</button>
+</Preview>
